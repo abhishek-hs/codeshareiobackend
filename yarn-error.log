@@ -1,0 +1,47 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn add mediasoup
+
+PATH: 
+  /opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:~/.dotnet/tools:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/opt/homebrew/bin:/opt/homebrew/sbin
+
+Yarn version: 
+  1.22.11
+
+Node version: 
+  16.14.0
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: ENOENT: no such file or directory, lstat '/Users/manohargavit/Desktop/darshan-halfsquare/mediasoup3-main/example1/node_modules/uuid'
+
+npm manifest: 
+  {
+    "name": "example1",
+    "version": "1.0.0",
+    "description": "mediasoup tutorials",
+    "main": "app.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "nodemon app.js"
+    },
+    "author": "amir eshaq",
+    "license": "ISC",
+    "type": "module",
+    "dependencies": {
+      "cors": "^2.8.5",
+      "express": "^4.17.1",
+      "httpolyglot": "^0.1.2",
+      "socket.io": "^4.2.0"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.12"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
